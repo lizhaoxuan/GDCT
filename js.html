@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>girl scoding day</title>
+</head>
+<body>
+
+<p>点我点我</p>
+<button onclick="myFunction()">点我</button>
+<p id="demo"></p>
+<script>
+function myFunction(){
+	var x;
+	var person=prompt("你叫什么名字呀？","暴打小女孩");
+	if (person!=null && person!=""){
+	    x="Hi " + person + "! 很搞笑认识你";
+	    document.getElementById("demo").innerHTML=x;
+	}
+}
+</script>
